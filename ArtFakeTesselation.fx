@@ -44,13 +44,13 @@ uniform float ParallaxStrength <
     ui_type = "slider";
     ui_min = -0.02; ui_max = 0.02; ui_step = 0.001;
     ui_label = "Parallax Strength (Shift)";
-> = 0.005;
+> = 0.003;
 
 uniform float HeightCutoff <
     ui_type = "slider";
     ui_min = 0.5; ui_max = 1.0; ui_step = 0.01;
     ui_label = "White clipping";
-> = 1.0;
+> = 0.99;
 
 uniform float SharpenIntensity <
     ui_type = "slider";
